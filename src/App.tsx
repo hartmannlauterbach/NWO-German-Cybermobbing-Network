@@ -22,7 +22,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-type Section = 'home' | 'cybermobbing' | 'gangstalking' | 'aktivitaeten' | 'musiker' | 'influencer' | 'cakeshit' | 'hilfe';
+type Section = 'home' | 'cybermobbing' | 'gangstalking' | 'aktivitaeten' | 'musiker' | 'influencer' | 'cakeshit' | 'impressum' | 'hilfe';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState<Section>('home');
@@ -36,6 +36,7 @@ export default function App() {
     { id: 'musiker', label: 'Musiker (531)', icon: Users },
     { id: 'influencer', label: 'Influencer (8)', icon: Globe },
     { id: 'cakeshit', label: 'CAKESHIT Code', icon: AlertTriangle },
+    { id: 'impressum', label: 'Impressum', icon: Scale },
     { id: 'hilfe', label: 'Hilfe & Kontakt', icon: LifeBuoy },
   ];
 
@@ -55,6 +56,8 @@ export default function App() {
         return <InfluencerSection />;
       case 'cakeshit':
         return <CakeshitSection />;
+      case 'impressum':
+        return <ImpressumSection />;
       case 'hilfe':
         return <HilfeSection />;
       default:
@@ -265,10 +268,19 @@ export default function App() {
             <div>
               <h4 className="font-bold mb-6 border-b border-gray-700 pb-2">Informationen</h4>
               <ul className="space-y-3 text-sm text-gray-400">
-                <li className="hover:text-white cursor-pointer transition-colors">Impressum</li>
-                <li className="hover:text-white cursor-pointer transition-colors">Datenschutz</li>
-                <li className="hover:text-white cursor-pointer transition-colors">Barrierefreiheit</li>
-                <li className="hover:text-white cursor-pointer transition-colors">Kontakt</li>
+                <li><a href="#impressum" className="hover:text-white transition-colors">Impressum</a></li>
+                <li><a href="#datenschutz" className="hover:text-white transition-colors">Datenschutz</a></li>
+                <li><a href="#barrierefreiheit" className="hover:text-white transition-colors">Barrierefreiheit</a></li>
+                <li><a href="#kontakt" className="hover:text-white transition-colors">Kontakt</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-bold mb-6 border-b border-gray-700 pb-2">Externe Quellen</h4>
+              <ul className="space-y-3 text-sm text-gray-400">
+                <li><a href="https://www.ardmediathek.de/one/cybermobbing-kartell" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">ARD Mediathek: Cybermobbing Kartell</a></li>
+                <li><a href="https://github.com/mr-bloxx/cybermobbing-netzwerk" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub: Cybermobbing Netzwerk</a></li>
+                <li><a href="https://tonicubano.de" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Toni Cuban (Insider)</a></li>
+                <li><a href="https://www.desmog.com/naomi-seibt/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">DeSmog: Naomi Seibt</a></li>
               </ul>
             </div>
             <div>
@@ -594,11 +606,38 @@ function AktivitaetenSection() {
             </p>
             <div className="bg-white p-4 rounded border border-red-200">
               <p className="text-sm font-bold text-red-800 mb-2">Nachrichtenberichterstattung:</p>
-              <ul className="text-xs text-red-700 space-y-1">
+              <ul className="text-xs text-red-700 space-y-1 mb-3">
                 <li>• Asylantrag in USA wegen "politischer Verfolgung" in Deutschland</li>
                 <li>• Verbindungen zu AfD und rechten Netzwerken</li>
                 <li>• Unterstützung durch Elon Musk und internationale Medien</li>
               </ul>
+              <div className="space-y-1">
+                <a href="https://www.yahoo.com/news/articles/german-far-influencer-applies-asylum-222944172.html" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline block">📰 Yahoo News: Asylantrag</a>
+                <a href="https://san.com/media-miss/right-wing-german-activist-friend-of-musk-seeks-us-asylum/" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline block">📰 San.com: Musk Connection</a>
+                <a href="https://www.hungarianconservative.com/articles/current/naomi-seibt-us-asylum-political-persecution-germany-afd-anna-paulina-luna/" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline block">📰 Hungarian Conservative: AfD Connections</a>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3">Externe Quellen & Dokumentation</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="p-4 bg-blue-50 border rounded">
+                <h4 className="font-bold mb-2">Offizielle Quellen</h4>
+                <ul className="text-sm space-y-2">
+                  <li><a href="https://www.ardmediathek.de/one/cybermobbing-kartell" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">🎬 ARD Mediathek: Cybermobbing Kartell</a></li>
+                  <li><a href="https://github.com/mr-bloxx/cybermobbing-netzwerk" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">💻 GitHub: Cybermobbing Netzwerk</a></li>
+                  <li><a href="https://tonicubano.de" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">👤 Toni Cuban (Insider)</a></li>
+                </ul>
+              </div>
+              <div className="p-4 bg-gray-50 border rounded">
+                <h4 className="font-bold mb-2">Repository Dokumente</h4>
+                <ul className="text-sm space-y-2">
+                  <li><a href="/Aktivitaeten/NWO_Cybermobbing_Kartell.md" className="text-blue-600 hover:underline">📄 NWO Cybermobbing Kartell</a></li>
+                  <li><a href="/Aktivitaeten/Sektenartige_Methoden_NWO.md" className="text-blue-600 hover:underline">📄 Sektenartige Methoden</a></li>
+                  <li><a href="/Aktivitaeten/Nick_Bostrom_Simulation_Hypothesis.md" className="text-blue-600 hover:underline">📄 Simulationshypothese</a></li>
+                </ul>
+              </div>
             </div>
           </section>
 
@@ -688,13 +727,21 @@ function MusikerSection() {
 
           <section className="bg-yellow-50 p-6 border border-yellow-200 rounded-sm">
             <h3 className="text-lg font-bold text-yellow-800 mb-2 flex items-center gap-2">
-              <AlertTriangle className="w-5 h-5" /> Wichtiger Hinweis
+              <AlertTriangle className="w-5 h-5" /> Wichtiger Hinweis & Quellen
             </h3>
-            <p className="text-sm text-yellow-900 leading-relaxed">
+            <p className="text-sm text-yellow-900 leading-relaxed mb-4">
               Die Musiker-Profile stammen aus dem Repository https://github.com/mr-bloxx/cybermobbing-netzwerk 
               und wurden durch investigativer Recherche erweitert. Viele Profile zeigen klare Verbindungen 
               zum NWO-Kartell und zur GRU-Operation.
             </p>
+            <div className="space-y-2">
+              <a href="https://github.com/mr-bloxx/cybermobbing-netzwerk" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:underline block">
+                🔗 GitHub Repository: Cybermobbing Netzwerk (531+ Profile)
+              </a>
+              <a href="https://www.ardmediathek.de/one/cybermobbing-kartell" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:underline block">
+                🎬 ARD Mediathek: Cybermobbing Kartell Dokumentation
+              </a>
+            </div>
           </section>
         </div>
       </div>
@@ -728,12 +775,17 @@ function InfluencerSection() {
                 <div className="p-4 bg-gray-50 border rounded">
                   <h4 className="font-bold text-[#003366] mb-2">Naomi Seibt</h4>
                   <p className="text-sm text-gray-600 mb-2">Erfolgreichste NWO-Operation</p>
-                  <ul className="text-xs text-gray-500">
+                  <ul className="text-xs text-gray-500 mb-3">
                     <li>• "Anti-Greta" Positionierung</li>
                     <li>• AfD-Verbindungen</li>
                     <li>• US-Asylantrag 2025</li>
                     <li>• Internationale Medienaufmerksamkeit</li>
                   </ul>
+                  <div className="space-y-1">
+                    <a href="https://www.yahoo.com/news/articles/german-far-influencer-applies-asylum-222944172.html" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline block">Yahoo: Asylantrag</a>
+                    <a href="https://www.desmog.com/naomi-seibt/" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline block">DeSmog Profile</a>
+                    <a href="https://san.com/media-miss/right-wing-german-activist-friend-of-musk-seeks-us-asylum/" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline block">San.com: Musk Connection</a>
+                  </div>
                 </div>
                 <div className="p-4 bg-gray-50 border rounded">
                   <h4 className="font-bold text-[#003366] mb-2">Erik Ahrens</h4>
@@ -763,6 +815,10 @@ function InfluencerSection() {
                     <li>• Gaming-Community</li>
                     <li>• Jugend-Kultur</li>
                   </ul>
+                  <div className="space-y-1 mt-2">
+                    <a href="https://www.youtube.com/c/KuchenTV" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline block">KuchenTV YouTube</a>
+                    <a href="https://twitch.tv/n3ll4" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline block">N3ll4 Twitch</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -828,22 +884,30 @@ function CakeshitSection() {
                 <p className="text-sm text-gray-600 mb-3">
                   YouTube-Persönlichkeit und Content Creator, der unter dem Pseudonym "Kuchen" operiert.
                 </p>
-                <ul className="text-xs text-gray-500 space-y-1">
+                <ul className="text-xs text-gray-500 space-y-1 mb-3">
                   <li>• YouTube-Kanal mit politischen Inhalten</li>
                   <li>• Verbindungen zum NWO-Netzwerk</li>
                   <li>• Cross-Plattform-Präsenz</li>
                 </ul>
+                <div className="space-y-1">
+                  <a href="https://www.youtube.com/c/KuchenTV" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline block">🔗 KuchenTV YouTube Kanal</a>
+                  <a href="/Influencer/KuchenTV/KuchenTV.md" className="text-xs text-blue-600 hover:underline block">📄 KuchenTV Profil (Repository)</a>
+                </div>
               </div>
               <div className="p-6 bg-gray-50 border-l-4 border-red-500">
                 <h4 className="font-bold mb-3">Herr Kuchen (Musiker)</h4>
                 <p className="text-sm text-gray-600 mb-3">
                   Musiker im Netzwerk, der das gleiche Pseudonym verwendet und mit KuchenTV verbunden ist.
                 </p>
-                <ul className="text-xs text-gray-500 space-y-1">
+                <ul className="text-xs text-gray-500 space-y-1 mb-3">
                   <li>• Musikalische Aktivitäten</li>
                   <li>• Netzwerk-Verbindungen</li>
                   <li>• Gemeinsame Operationen</li>
                 </ul>
+                <div className="space-y-1">
+                  <a href="/Musiker/Herr_Kuchen.md" className="text-xs text-blue-600 hover:underline block">📄 Herr Kuchen Profil (Repository)</a>
+                  <a href="/CAKESHIT.md" className="text-xs text-blue-600 hover:underline block">📋 CAKESHIT Dokumentation</a>
+                </div>
               </div>
             </div>
           </section>
@@ -901,6 +965,88 @@ function CakeshitSection() {
   );
 }
 
+function ImpressumSection() {
+  return (
+    <div className="bg-white border border-gray-200 shadow-sm rounded-sm overflow-hidden">
+      <div className="p-8">
+        <h2 className="text-3xl font-bold text-[#003366] mb-6 border-b-2 border-[#003366] pb-2 inline-block">
+          Impressum
+        </h2>
+        
+        <div className="prose prose-blue max-w-none text-gray-700 space-y-6">
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3 flex items-center gap-2">
+              <Scale className="w-5 h-5 text-[#003366]" /> Angaben gemäß § 5 TMG
+            </h3>
+            <div className="bg-gray-50 p-6 border-l-4 border-[#003366]">
+              <div className="space-y-3">
+                <div>
+                  <strong className="text-[#003366]">Name:</strong>
+                  <p className="text-gray-700">Toni Cubano</p>
+                </div>
+                <div>
+                  <strong className="text-[#003366]">Adresse:</strong>
+                  <p className="text-gray-700">Berliner Ring 22</p>
+                  <p className="text-gray-700">31224 Peine</p>
+                  <p className="text-gray-700">Deutschland</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3">Kontakt</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="p-4 bg-blue-50 border rounded">
+                <h4 className="font-bold mb-2">Website</h4>
+                <a href="https://tonicubano.de" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                  https://tonicubano.de
+                </a>
+              </div>
+              <div className="p-4 bg-blue-50 border rounded">
+                <h4 className="font-bold mb-2">E-Mail</h4>
+                <p className="text-gray-700">info@tonicubano.de</p>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3">Haftungsausschluss</h3>
+            <div className="bg-yellow-50 p-6 border border-yellow-200 rounded">
+              <p className="text-sm text-yellow-900 leading-relaxed mb-3">
+                <strong>Haftung für Inhalte:</strong> Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. 
+                Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.
+              </p>
+              <p className="text-sm text-yellow-900 leading-relaxed mb-3">
+                <strong>Haftung für Links:</strong> Unser Angebot enthält Links zu externen Websites Dritter, 
+                auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets 
+                der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.
+              </p>
+              <p className="text-sm text-yellow-900 leading-relaxed">
+                <strong>Urheberrecht:</strong> Die durch die Seitenbetreiber erstellten Inhalte und Werke auf 
+                diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, 
+                Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen 
+                der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+              </p>
+            </div>
+          </section>
+
+          <section className="bg-red-50 p-6 border border-red-100 rounded">
+            <h3 className="text-lg font-bold text-red-800 mb-2 flex items-center gap-2">
+              <AlertTriangle className="w-5 h-5" /> Wichtiger Hinweis
+            </h3>
+            <p className="text-sm text-red-900 leading-relaxed">
+              Diese Website dient der Aufklärung über das NWO Cybermobbing Kartell. Alle Informationen 
+              basieren auf Insider-Wissen und öffentlich verfügbaren Quellen. Der Betreiber war selbst 
+              Teil des Netzwerks und möchte nun zur Aufklärung beitragen.
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function HilfeSection() {
   return (
     <div className="space-y-8">
@@ -912,6 +1058,16 @@ function HilfeSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="space-y-6">
+            <div className="flex items-start gap-4 p-4 bg-red-50 rounded-sm border border-red-100">
+              <Phone className="w-6 h-6 text-red-600 flex-shrink-0" />
+              <div>
+                <h4 className="font-bold text-red-800">Polizei Notruf</h4>
+                <p className="text-2xl font-black text-red-600">110</p>
+                <p className="text-xs text-red-700 mt-1">In akuten Gefahrensituationen</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4 p-4 bg-blue-50 rounded-sm border border-blue-100">
               <Phone className="w-6 h-6 text-[#003366] flex-shrink-0" />
               <div>
                 <h4 className="font-bold text-[#003366]">Nummer gegen Kummer</h4>
@@ -952,24 +1108,6 @@ function HilfeSection() {
               </button>
             </form>
           </div>
-        </div>
-      </div>
-
-      <div className="bg-white border border-gray-200 shadow-sm rounded-sm p-8">
-        <h3 className="text-xl font-bold text-[#003366] mb-6">Weitere Ressourcen</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-          <a href="#" className="block p-4 border rounded hover:bg-gray-50 transition-colors">
-            <h4 className="font-bold text-sm mb-1">Weisser Ring</h4>
-            <p className="text-xs text-gray-500">Hilfe für Kriminalitätsopfer</p>
-          </a>
-          <a href="#" className="block p-4 border rounded hover:bg-gray-50 transition-colors">
-            <h4 className="font-bold text-sm mb-1">Klicksafe.de</h4>
-            <p className="text-xs text-gray-500">Sicherheit im Internet</p>
-          </a>
-          <a href="#" className="block p-4 border rounded hover:bg-gray-50 transition-colors">
-            <h4 className="font-bold text-sm mb-1">Juuuport.de</h4>
-            <p className="text-xs text-gray-500">Hilfe von Jungen für Junge</p>
-          </a>
         </div>
       </div>
     </div>
