@@ -81,7 +81,15 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#f4f4f4] font-sans text-[#333]">
+    <div className="min-h-screen bg-[#f4f4f4] font-sans text-[#333] relative">
+      {/* Zensery Background */}
+      <div 
+        className="fixed inset-0 bg-cover bg-center bg-no-repeat opacity-20 pointer-events-none z-0"
+        style={{ backgroundImage: 'url(/ZENSERY.png)' }}
+      ></div>
+      
+      {/* Content Overlay */}
+      <div className="relative z-10">
       {/* Top Bar */}
       <div className="bg-[#003366] text-white py-1 px-4 text-xs flex justify-between items-center">
         <div className="flex gap-4">
