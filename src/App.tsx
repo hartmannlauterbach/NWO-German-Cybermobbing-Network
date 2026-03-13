@@ -893,6 +893,20 @@ function InfluencerSection() {
                   </div>
                 </div>
                 <div className="p-4 bg-gray-50 border rounded">
+                  <h4 className="font-bold text-[#003366] mb-2">Martha Root</h4>
+                  <p className="text-sm text-gray-600 mb-2">Hacker-Aktivistin gegen weißen Suprematismus</p>
+                  <ul className="text-xs text-gray-500 mb-3">
+                    <li>• 39C3 Congress Teilnehmerin</li>
+                    <li>• Anti-Supremacy Operations</li>
+                    <li>• Expose von NWO-Netzwerken</li>
+                    <li>• Digitale Anti-Faschismus-Aktivismus</li>
+                  </ul>
+                  <div className="space-y-1">
+                    <a href="/Aktivitaeten/Martha_Root_39C3.md" className="text-xs text-blue-600 hover:underline block">📄 Martha Root 39C3 Dokumentation</a>
+                    <a href="https://events.ccc.de/congress/2023/" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline block">🎪 39C3 Congress</a>
+                  </div>
+                </div>
+                <div className="p-4 bg-gray-50 border rounded">
                   <h4 className="font-bold text-[#003366] mb-2">Erik Ahrens</h4>
                   <p className="text-sm text-gray-600 mb-2">Social-Media-Stratege für AfD</p>
                   <ul className="text-xs text-gray-500">
