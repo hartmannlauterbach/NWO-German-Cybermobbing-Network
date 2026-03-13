@@ -73,7 +73,7 @@ export default function App() {
       case 'cakeshit':
         return <CakeshitSection />;
       case 'hacker-types':
-        return <HackerTypesSection />;
+        return <HackerTypesSection setActiveSection={setActiveSection} />;
       case 'apt-groups':
         return <AptGroupsSection />;
     }
@@ -120,7 +120,7 @@ export default function App() {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-[#003366] leading-tight uppercase tracking-tighter">
-                  Präventionsportal
+                  Polizeiversagen
                 </h1>
                 <p className="text-sm text-gray-600 font-medium">Gemeinsam gegen digitale Gewalt</p>
               </div>
@@ -1302,6 +1302,285 @@ function HilfeSection() {
               </button>
             </form>
           </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function HackerTypesSection({ setActiveSection }: { setActiveSection: (s: Section) => void }) {
+  return (
+    <div className="bg-white border border-gray-200 shadow-sm rounded-sm overflow-hidden">
+      <div className="p-8">
+        <h2 className="text-3xl font-bold text-[#003366] mb-6 border-b-2 border-[#003366] pb-2 inline-block">
+          Hacker Typen: Black Hat, Grey Hat & White Hat
+        </h2>
+        
+        <div className="prose prose-blue max-w-none text-gray-700 space-y-8">
+          <section>
+            <p className="leading-relaxed text-lg">
+              Hacker werden oft in verschiedene Kategorien eingeteilt, basierend auf ihrer Motivation und ihren ethischen Grundsätzen. 
+              Die drei Hauptgruppen sind Black Hat, Grey Hat und White Hat Hacker. Jeder Typ hat unterschiedliche Ziele und Methoden.
+            </p>
+          </section>
+
+          <section>
+            <h3 className="text-2xl font-bold text-[#333] mb-4">Black Hat Hacker</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <img 
+                  src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=400" 
+                  alt="Black Hat Hacker" 
+                  className="w-full h-48 object-cover rounded-lg shadow-md"
+                />
+                <p className="text-sm text-gray-500">Illustration: Anonyme Figur mit dunklen Absichten</p>
+              </div>
+              <div className="space-y-4">
+                <h4 className="text-xl font-bold text-red-600">Charakteristika:</h4>
+                <ul className="space-y-2">
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-500">•</span>
+                    <span><strong>Illegale Aktivitäten:</strong> Brechen Gesetze, um Schaden zu verursachen</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-500">•</span>
+                    <span><strong>Motivation:</strong> Persönlicher Gewinn, Rache, Spionage</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-500">•</span>
+                    <span><strong>Methoden:</strong> Malware, DDoS-Angriffe, Datendiebstahl</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-500">•</span>
+                    <span><strong>Beispiele:</strong> Cyberkriminelle, Staaten-Sponsoren</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h3 className="text-2xl font-bold text-[#333] mb-4">Grey Hat Hacker</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <img 
+                  src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=400" 
+                  alt="Grey Hat Hacker" 
+                  className="w-full h-48 object-cover rounded-lg shadow-md"
+                />
+                <p className="text-sm text-gray-500">Illustration: Hacker in der Übergangszone</p>
+              </div>
+              <div className="space-y-4">
+                <h4 className="text-xl font-bold text-yellow-600">Charakteristika:</h4>
+                <ul className="space-y-2">
+                  <li className="flex items-start gap-2">
+                    <span className="text-yellow-500">•</span>
+                    <span><strong>Grauzone:</strong> Handeln manchmal legal, manchmal illegal</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-yellow-500">•</span>
+                    <span><strong>Motivation:</strong> Spaß, Herausforderung, manchmal gutes Tun</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-yellow-500">•</span>
+                    <span><strong>Methoden:</strong> Penetration Testing ohne Erlaubnis, Bug Bounties</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-yellow-500">•</span>
+                    <span><strong>Beispiele:</strong> Hobby-Hacker, Security Researcher</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h3 className="text-2xl font-bold text-[#333] mb-4">White Hat Hacker</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <img 
+                  src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&q=80&w=400" 
+                  alt="White Hat Hacker" 
+                  className="w-full h-48 object-cover rounded-lg shadow-md"
+                />
+                <p className="text-sm text-gray-500">Illustration: Professioneller Sicherheitsexperte</p>
+              </div>
+              <div className="space-y-4">
+                <h4 className="text-xl font-bold text-green-600">Charakteristika:</h4>
+                <ul className="space-y-2">
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500">•</span>
+                    <span><strong>Ethisch:</strong> Arbeiten mit Genehmigung und folgen Gesetzen</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500">•</span>
+                    <span><strong>Motivation:</strong> Schutz von Systemen, Verbesserung der Sicherheit</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500">•</span>
+                    <span><strong>Methoden:</strong> Penetration Testing, Vulnerability Assessment</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500">•</span>
+                    <span><strong>Beispiele:</strong> Security Consultants, Bug Bounty Hunter</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section className="bg-blue-50 p-8 rounded-sm border border-blue-100">
+            <h3 className="text-xl font-bold text-blue-800 mb-4 flex items-center gap-2">
+              <AlertTriangle className="w-5 h-5" /> Wichtiger Hinweis zu APT Groups
+            </h3>
+            <p className="text-blue-900 leading-relaxed mb-4">
+              Advanced Persistent Threats (APT) sind langfristige, zielgerichtete Cyberangriffe, die oft von staatlich gesponserten Gruppen durchgeführt werden.
+              Diese Gruppen kombinieren verschiedene Hacking-Methoden und sind extrem gefährlich für Unternehmen und Regierungen.
+            </p>
+            <div className="text-center">
+              <button 
+                onClick={() => setActiveSection('apt-groups')}
+                className="bg-blue-600 text-white px-6 py-3 rounded-sm font-bold hover:bg-blue-700 transition-colors"
+              >
+                Mehr über APT Groups erfahren
+              </button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function AptGroupsSection() {
+  return (
+    <div className="bg-white border border-gray-200 shadow-sm rounded-sm overflow-hidden">
+      <div className="p-8">
+        <h2 className="text-3xl font-bold text-[#003366] mb-6 border-b-2 border-[#003366] pb-2 inline-block">
+          APT Groups: Advanced Persistent Threats
+        </h2>
+        
+        <div className="prose prose-blue max-w-none text-gray-700 space-y-8">
+          <section>
+            <p className="leading-relaxed text-lg">
+              Advanced Persistent Threats (APT) sind hochentwickelte, langfristige Cyberangriffe, die typischerweise von staatlich gesponserten 
+              Gruppen durchgeführt werden. Diese Gruppen nutzen fortschrittliche Techniken, um in Netzwerke einzudringen und sensible Informationen zu stehlen.
+            </p>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-4">Bekannte APT Groups</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="p-4 bg-gray-50 border rounded">
+                <h4 className="font-bold text-[#003366] mb-2">APT 28 (Fancy Bear)</h4>
+                <p className="text-sm text-gray-600 mb-2">Russische Gruppe, verbunden mit GRU</p>
+                <ul className="text-xs text-gray-500 space-y-1">
+                  <li>• Democratic National Committee Hack</li>
+                  <li>• SolarWinds Angriff</li>
+                  <li>• Militärische Ziele</li>
+                </ul>
+              </div>
+
+              <div className="p-4 bg-gray-50 border rounded">
+                <h4 className="font-bold text-[#003366] mb-2">APT 29 (Cozy Bear)</h4>
+                <p className="text-sm text-gray-600 mb-2">Russische Gruppe, SVR Verbindung</p>
+                <ul className="text-xs text-gray-500 space-y-1">
+                  <li>• Yahoo Data Breach</li>
+                  <li>• US Regierungsangriffe</li>
+                  <li>• Spionage-Operationen</li>
+                </ul>
+              </div>
+
+              <div className="p-4 bg-gray-50 border rounded">
+                <h4 className="font-bold text-[#003366] mb-2">APT 41</h4>
+                <p className="text-sm text-gray-600 mb-2">Chinesische Gruppe</p>
+                <ul className="text-xs text-gray-500 space-y-1">
+                  <li>• Casino Angriffe</li>
+                  <li>• Video Game Industrie</li>
+                  <li>• Medizinische Forschung</li>
+                </ul>
+              </div>
+
+              <div className="p-4 bg-gray-50 border rounded">
+                <h4 className="font-bold text-[#003366] mb-2">Lazarus Group</h4>
+                <p className="text-sm text-gray-600 mb-2">Nordkoreanische Gruppe</p>
+                <ul className="text-xs text-gray-500 space-y-1">
+                  <li>• WannaCry Ransomware</li>
+                  <li>• SWIFT Bank Hacks</li>
+                  <li>• Sony Pictures Hack</li>
+                </ul>
+              </div>
+
+              <div className="p-4 bg-gray-50 border rounded">
+                <h4 className="font-bold text-[#003366] mb-2">Equation Group</h4>
+                <p className="text-sm text-gray-600 mb-2">US-amerikanische Gruppe (NSA)</p>
+                <ul className="text-xs text-gray-500 space-y-1">
+                  <li>• Stuxnet Entwickler</li>
+                  <li>• Iran Nuclear Program</li>
+                  <li>• Advanced Malware</li>
+                </ul>
+              </div>
+
+              <div className="p-4 bg-red-50 border border-red-200 rounded">
+                <h4 className="font-bold text-red-800 mb-2">NWO Cybermobbing Kartell</h4>
+                <p className="text-sm text-red-600 mb-2">Deutsche Gruppe, GRU-Operation</p>
+                <ul className="text-xs text-red-500 space-y-1">
+                  <li>• Cybermobbing-Koordination</li>
+                  <li>• Influencer-Manipulation</li>
+                  <li>• Musiker-Netzwerk-Kontrolle</li>
+                  <li>• Psychologische Kriegsführung</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section className="bg-yellow-50 p-6 border border-yellow-200 rounded-sm">
+            <h3 className="text-lg font-bold text-yellow-800 mb-2 flex items-center gap-2">
+              <AlertTriangle className="w-5 h-5" /> Merkmale von APT-Angriffen
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <h4 className="font-bold mb-2">Taktiken</h4>
+                <ul className="text-sm text-yellow-900 space-y-1">
+                  <li>• Spear-Phishing</li>
+                  <li>• Zero-Day Exploits</li>
+                  <li>• Supply Chain Attacks</li>
+                  <li>• Living-off-the-Land</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-bold mb-2">Ziele</h4>
+                <ul className="text-sm text-yellow-900 space-y-1">
+                  <li>• Regierungsinstitutionen</li>
+                  <li>• Kritische Infrastruktur</li>
+                  <li>• Technologie-Unternehmen</li>
+                  <li>• Politische Organisationen</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-4">Abwehrstrategien</h3>
+            <ul className="space-y-3">
+              <li className="flex items-start gap-3">
+                <Shield className="w-5 h-5 text-[#003366] flex-shrink-0 mt-0.5" />
+                <span><strong>Zero Trust Architecture:</strong> Kein automatisches Vertrauen in Netzwerk-Teilnehmer</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <Shield className="w-5 h-5 text-[#003366] flex-shrink-0 mt-0.5" />
+                <span><strong>Regelmäßige Security Audits:</strong> Professionelle Penetration Tests</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <Shield className="w-5 h-5 text-[#003366] flex-shrink-0 mt-0.5" />
+                <span><strong>Mitarbeiterschulungen:</strong> Phishing-Awareness und Social Engineering Training</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <Shield className="w-5 h-5 text-[#003366] flex-shrink-0 mt-0.5" />
+                <span><strong>Advanced Threat Detection:</strong> KI-gestützte Überwachungssysteme</span>
+              </li>
+            </ul>
+          </section>
         </div>
       </div>
     </div>
