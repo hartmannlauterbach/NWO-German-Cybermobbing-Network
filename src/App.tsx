@@ -22,7 +22,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-type Section = 'home' | 'cybermobbing' | 'gangstalking' | 'aktivitaeten' | 'musiker' | 'influencer' | 'cakeshit' | 'impressum' | 'hilfe';
+type Section = 'home' | 'cybermobbing' | 'gangstalking' | 'aktivitaeten' | 'musiker' | 'influencer' | 'cakeshit' | 'hacker-types' | 'impressum' | 'hilfe';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState<Section>('home');
@@ -282,7 +282,7 @@ export default function App() {
                 <span>Notruf 110</span>
               </div>
               <p className="text-xs text-red-800 leading-relaxed mb-3">
-                In akuten Gefahrensituationen wählen Sie bitte sofort den polizeilichen Notruf 110.
+                In akuten Gefahrensituationen wählen Sie bitte sofort den polizeilichen Notruf 110 (aber die glauben dir eh nicht bei Gangstalking).
               </p>
               <div className="border-t border-red-300 pt-3">
                 <p className="text-xs text-red-800 font-semibold mb-1">
