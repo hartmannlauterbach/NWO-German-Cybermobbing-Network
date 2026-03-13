@@ -93,7 +93,7 @@ export default function App() {
       {/* Top Bar */}
       <div className="bg-[#003366] text-white py-1 px-4 text-xs flex justify-between items-center">
         <div className="flex gap-4">
-          <span>Polizei Niedersachsen (Stil-Inspiration)</span>
+          <span>...der Polizist kuckt nur dumm, er wäre gern wie wir...</span>
           <span className="hidden sm:inline">|</span>
           <span className="hidden sm:inline">Barrierefrei</span>
           <span className="hidden sm:inline">|</span>
