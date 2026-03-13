@@ -1132,11 +1132,19 @@ function ImpressumSection() {
             <h3 className="text-lg font-bold text-red-800 mb-2 flex items-center gap-2">
               <AlertTriangle className="w-5 h-5" /> Wichtiger Hinweis
             </h3>
-            <p className="text-sm text-red-900 leading-relaxed">
+            <p className="text-sm text-red-900 leading-relaxed mb-4">
               Diese Website dient der Aufklärung über das NWO Cybermobbing Kartell. Alle Informationen 
               basieren auf Insider-Wissen und öffentlich verfügbaren Quellen. Der Betreiber war selbst 
               Teil des Netzwerks und möchte nun zur Aufklärung beitragen.
             </p>
+            <div className="bg-red-100 p-4 border border-red-300 rounded">
+              <p className="text-lg font-bold text-red-900 text-center mb-2">
+                ER LIEBT DICH IMMER NOCH. ER IST WAHNSINNIG UND MUSS IN DIE KLAPSE. LASS UNS ZUSAMMEN DORTHIN!
+              </p>
+              <p className="text-sm text-red-800 text-center">
+                Diese Botschaft gilt allen Betroffenen und Überlebenden des NWO Cybermobbing Kartells.
+              </p>
+            </div>
           </section>
         </div>
       </div>
