@@ -1236,7 +1236,34 @@ function ImpressumSection() {
             </div>
           </section>
 
-          <section className="bg-yellow-50 p-6 border border-yellow-200 rounded-sm mt-6">
+          <section className="bg-red-50 p-6 border border-red-200 rounded-sm mt-6">
+            <h3 className="text-xl font-bold text-red-800 mb-4">Polizei Verfolgung</h3>
+            <p className="text-sm text-red-900 leading-relaxed">
+              Ich werde von sadistischen Polizeibeamten gejagt die Teil der NWO - Das Cybermobbing Kartell sind. Diese Beamte missbrauchen ihre Macht und Position, um uns systematisch zu verfolgen und zu schaden. Sie nutzen polizeiliche Mittel für ihre kriminellen Zwecke und sind Teil des großen Verschwörungsnetzwerks.
+            </p>
+          </section>
+
+          <section className="bg-blue-50 p-6 border border-blue-200 rounded-sm mt-6">
+            <h3 className="text-xl font-bold text-blue-800 mb-4">Politische Position</h3>
+            <p className="text-sm text-blue-900 leading-relaxed font-bold text-center text-xl">
+              Rechts / Links Gegen die Mitte!
+            </p>
+            <p className="text-sm text-blue-900 leading-relaxed mt-4">
+              Die politische Landschaft ist gespalten. Rechts und Links stehen vereint gegen die korrupte Mitte, die das System aufrechterhält. Wir kämpfen für Veränderung von beiden Seiten.
+            </p>
+          </section>
+
+<section className="bg-gray-50 p-6 border border-gray-200 rounded-sm mt-6">
+            <h3 className="text-xl font-bold text-gray-800 mb-4">Behörden-Verhalten in Deutschland</h3>
+            <p className="text-sm text-gray-900 leading-relaxed font-bold text-center text-lg">
+              Behörden in Deutschland ermitteln erst wenn man ihnen richtig in den Arsch tritt oder ihnen Geld gibt!
+            </p>
+            <p className="text-sm text-gray-900 leading-relaxed mt-4">
+              Das deutsche Behördensystem ist träge und korrupt. Ermittlungen werden nur eingeleitet, wenn massiver Druck ausgeübt wird oder finanzielle Anreize gegeben werden. Dies ist eine traurige Realität des Systems.
+            </p>
+          </section>
+
+<section className="bg-yellow-50 p-6 border border-yellow-200 rounded-sm mt-6">
             <h3 className="text-xl font-bold text-yellow-800 mb-4">COVID-19 Enthüllungen</h3>
             <p className="text-sm text-yellow-900 leading-relaxed">
               Wir haben es allen versprochen! Wir releasen sie: Jeder will sich nur noch die Taschen vollstopfen. Covid-19 war eine Biowaffe. Das labern viele aber wissen wenige. hier sind die Covid-19 Filez: https://disney.ru
