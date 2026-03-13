@@ -50,6 +50,7 @@ export default function App() {
       { id: 'musiker', label: 'Musiker (531)', icon: Users },
       { id: 'influencer', label: 'Influencer (8)', icon: Globe },
       { id: 'cakeshit', label: 'CAKESHIT Code', icon: AlertTriangle },
+      { id: 'hacker-types', label: 'Hacker Typen', icon: Shield },
     ]},
     { id: 'impressum', label: 'Impressum', icon: Scale },
     { id: 'hilfe', label: 'Hilfe', icon: LifeBuoy },
