@@ -27,17 +27,32 @@ type Section = 'home' | 'cybermobbing' | 'gangstalking' | 'aktivitaeten' | 'musi
 export default function App() {
   const [activeSection, setActiveSection] = useState<Section>('home');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  // Close dropdown when clicking outside
+  React.useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (isDropdownOpen && !(event.target as Element).closest('.dropdown-container')) {
+        setIsDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [isDropdownOpen]);
 
   const navItems = [
     { id: 'home', label: 'Startseite', icon: HomeIcon },
     { id: 'cybermobbing', label: 'Cybermobbing', icon: Globe },
     { id: 'gangstalking', label: 'AI Terrorists', icon: Users },
-    { id: 'aktivitaeten', label: 'Aktivitäten', icon: AlertTriangle },
-    { id: 'musiker', label: 'Musiker (531)', icon: Users },
-    { id: 'influencer', label: 'Influencer (8)', icon: Globe },
-    { id: 'cakeshit', label: 'CAKESHIT Code', icon: AlertTriangle },
+    { id: 'more', label: 'Mehr ▼', icon: ChevronRight, dropdown: [
+      { id: 'aktivitaeten', label: 'Aktivitäten', icon: AlertTriangle },
+      { id: 'musiker', label: 'Musiker (531)', icon: Users },
+      { id: 'influencer', label: 'Influencer (8)', icon: Globe },
+      { id: 'cakeshit', label: 'CAKESHIT Code', icon: AlertTriangle },
+    ]},
     { id: 'impressum', label: 'Impressum', icon: Scale },
-    { id: 'hilfe', label: 'Hilfe & Kontakt', icon: LifeBuoy },
+    { id: 'hilfe', label: 'Hilfe', icon: LifeBuoy },
   ];
 
   const renderSection = () => {
@@ -105,19 +120,56 @@ export default function App() {
             </div>
 
             {/* Desktop Nav */}
-            <nav className="hidden md:flex gap-1 h-full items-center">
+            <nav className="hidden lg:flex items-center space-x-1 dropdown-container">
               {navItems.map((item) => (
-                <button
-                  key={item.id}
-                  onClick={() => setActiveSection(item.id as Section)}
-                  className={`px-4 h-full flex items-center text-sm font-semibold transition-colors border-b-4 ${
-                    activeSection === item.id 
-                      ? 'border-[#003366] text-[#003366] bg-blue-50' 
-                      : 'border-transparent text-gray-600 hover:bg-gray-50 hover:text-[#003366]'
-                  }`}
-                >
-                  {item.label}
-                </button>
+                <div key={item.id} className="relative">
+                  {item.dropdown ? (
+                    <div>
+                      <button
+                        onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                        className={`flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+                          activeSection === item.id 
+                            ? 'bg-blue-50 text-[#003366]' 
+                            : 'text-gray-700 hover:bg-gray-50'
+                        }`}
+                      >
+                        <item.icon className="w-4 h-4" />
+                        {item.label}
+                      </button>
+                      {isDropdownOpen && (
+                        <div className="absolute top-full left-0 mt-1 w-48 bg-white border border-gray-200 rounded-md shadow-lg z-50">
+                          {item.dropdown.map((dropdownItem) => (
+                            <button
+                              key={dropdownItem.id}
+                              onClick={() => {
+                                setActiveSection(dropdownItem.id as Section);
+                                setIsDropdownOpen(false);
+                              }}
+                              className={`flex items-center gap-2 w-full text-left px-4 py-2 text-sm hover:bg-gray-50 ${
+                                activeSection === dropdownItem.id ? 'bg-blue-50 text-[#003366]' : 'text-gray-700'
+                              }`}
+                            >
+                              <dropdownItem.icon className="w-4 h-4" />
+                              {dropdownItem.label}
+                            </button>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <button
+                      onClick={() => setActiveSection(item.id as Section)}
+                      className={`flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+                        activeSection === item.id 
+                          ? 'bg-blue-50 text-[#003366]' 
+                          : 'text-gray-700 hover:bg-gray-50'
+                      }`}
+                    >
+                      <item.icon className="w-4 h-4" />
+                      {item.label}
+                    </button>
+                  )}
+                </div>
               ))}
             </nav>
 
