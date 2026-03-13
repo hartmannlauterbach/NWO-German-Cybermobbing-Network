@@ -73,6 +73,14 @@ export default function App() {
           <span>Polizei Niedersachsen (Stil-Inspiration)</span>
           <span className="hidden sm:inline">|</span>
           <span className="hidden sm:inline">Barrierefrei</span>
+          <span className="hidden sm:inline">|</span>
+          <a href="https://open.spotify.com/intl-de/album/6QJLgD2VZkzufGeNf4VGLQ" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             className="hover:text-white/80 transition-colors flex items-center gap-1">
+            <span>❤️</span>
+            <span>Music by Zensery</span>
+          </a>
         </div>
         <div className="flex gap-4">
           <span>DE</span>
