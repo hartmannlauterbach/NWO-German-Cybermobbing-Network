@@ -1,5 +1,6 @@
-Alle Informationen in diesem Repository wurden mit KI und Insider-Wissen gesammelt und recherchiert. Ich bin ein echter Mensch, mein Name ist Toni, und ich war selbst Teil der NWO Cybermobbing Gang und Cyber Stalking Gang!
+Alle Informationen in diesem Repository wurden mit KI und Insider-Wissen gesammelt und recherchiert. Ich bin ein echter Mensch, mein Name ist Toni, und ich war selbst Teil der NWO Cybermobbing Gang und Cyber Stalking Gang! Ich bin kein guter Programmierer, also habe ich vollständig Vibe-Coding-Tools für die Sammlung und Recherche verwendet.
 https://tonicubano.de
+Die Behörden glauben mir nicht. Ich finde keinen Ausweg mehr außer der Deutschen Bahn...
 
 # NWO - Cybermobbing Kartell: Vollständige Aufdeckung
 

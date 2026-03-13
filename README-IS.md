@@ -1,5 +1,8 @@
+[Hebrew Version](README-he.md)
+
 All information in this repository was collected and researched using AI and insider knowledge. I am a real human, my name is Toni, and I was myself part of the NWO Cybermobbing Gang and Cyber Stalking Gang! I'am no good programmer so I fully used vibe coding tools for the colelction and research.
 https://tonicubano.de
+The authorities don't believe me. I find no way out except the Deutsche Bahn...
 
 # NWO - Cyberbullying Cartel: Full Disclosure
 
