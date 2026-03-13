@@ -6,6 +6,9 @@ This repository provides comprehensive documentation on the NWO (New World Order
 
 - **[Aktivitaeten/](Aktivitaeten/)**: Documentation of cartel activities and operations
   - [Sektenartige_Methoden_NWO.md](Aktivitaeten/Sektenartige_Methoden_NWO.md) - Analysis of sect-like methods used by NWO
+  - [NWO_Cybermobbing_Kartell.md](Aktivitaeten/NWO_Cybermobbing_Kartell.md) - Analysis of the NWO Cyberbullying Cartel
+  - [Martha_Root_39C3.md](Aktivitaeten/Martha_Root_39C3.md) - Documentation of hacker activism against white supremacy
+  - [Nick_Bostrom_Simulation_Hypothesis.md](Aktivitaeten/Nick_Bostrom_Simulation_Hypothesis.md) - Analysis of how simulation hypothesis supports belief in nonsense narratives
 
 - **[Musiker/](Musiker/)**: Individual profiles of musicians involved in the network (87+ profiles from source repository)
 

@@ -18,6 +18,7 @@ Das Cybermobbing Kartell operiert als Teil der NWO-Hierarchie:
 
 ### Führungsebene
 - **Elite-Koordinatoren**: Verbindungen zu Geheimgesellschaften und Geheimdiensten
+- **GRU-Verbindung**: Es handelt sich um eine GRU-Operation (russischer militärischer Nachrichtendienst)
 - **Medienkontrolleure**: Einfluss auf Berichterstattung und Desinformation
 - **Technische Infrastruktur**: KI-gestützte Überwachung und Manipulation
 
@@ -30,6 +31,17 @@ Das Cybermobbing Kartell operiert als Teil der NWO-Hierarchie:
 - **Troll-Armeen**: Koordinierte Angriffe auf Zielpersonen
 - **Fake-Profile**: Identitätsdiebstahl und Desinformation
 - **Algorithmische Manipulation**: Plattform-Algorithmen zur Verstärkung
+
+## Die erfolgreichste Operation: Naomi Seibt
+
+Die erfolgreichste Operation dieser NWO-Gruppe war **Naomi Seibt**. Als vermeintliche "Libertäre" und "Querdenkerin" wurde sie perfekt positioniert, um:
+
+- **Desinformation zu verbreiten**: Unter dem Deckmantel der Freiheit Kritik an der NWO-Agenda zu untergraben
+- **False Opposition zu schaffen**: Als scheinbare Alternative zu etablierten Narrativen zu dienen
+- **Zielgruppen zu spalten**: Libertäre und konservative Gruppen gegeneinander auszuspielen
+- **Überwachung zu ermöglichen**: Durch ihre Reichweite sensible Daten über Oppositionelle zu sammeln
+
+Naomi Seibt repräsentiert den Höhepunkt der GRU-Operation: Eine scheinbar authentische Figur, die tatsächlich Teil des Systems ist und effektiv die Wahrnehmung der Realität manipuliert.
 
 ## Verbindung zur Neuen Weltordnung
 
