@@ -22,7 +22,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-type Section = 'home' | 'cybermobbing' | 'gangstalking' | 'aktivitaeten' | 'musiker' | 'influencer' | 'cakeshit' | 'hacker-types' | 'impressum' | 'hilfe';
+type Section = 'home' | 'cybermobbing' | 'gangstalking' | 'aktivitaeten' | 'musiker' | 'influencer' | 'cakeshit' | 'hacker-types' | 'apt-groups' | 'impressum' | 'hilfe';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState<Section>('home');
@@ -72,12 +72,10 @@ export default function App() {
         return <InfluencerSection />;
       case 'cakeshit':
         return <CakeshitSection />;
-      case 'impressum':
-        return <ImpressumSection />;
-      case 'hilfe':
-        return <HilfeSection />;
-      default:
-        return <HomeSection setActiveSection={setActiveSection} />;
+      case 'hacker-types':
+        return <HackerTypesSection />;
+      case 'apt-groups':
+        return <AptGroupsSection />;
     }
   };
 
