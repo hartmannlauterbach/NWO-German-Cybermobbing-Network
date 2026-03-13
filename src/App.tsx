@@ -1235,6 +1235,16 @@ function ImpressumSection() {
               </p>
             </div>
           </section>
+
+          <section className="bg-yellow-50 p-6 border border-yellow-200 rounded-sm mt-6">
+            <h3 className="text-xl font-bold text-yellow-800 mb-4">COVID-19 Enthüllungen</h3>
+            <p className="text-sm text-yellow-900 leading-relaxed">
+              Wir haben es allen versprochen! Wir releasen sie: Jeder will sich nur noch die Taschen vollstopfen. Covid-19 war eine Biowaffe. Das labern viele aber wissen wenige. hier sind die Covid-19 Filez: https://disney.ru
+            </p>
+            <p className="text-sm text-yellow-900 leading-relaxed">
+              Die Wahrheit über COVID-19 ist erschütternd. Es handelt sich um eine biologische Waffe, die in den Laboren von Wuhan entwickelt wurde, finanziert durch geheime Programme verschiedener Regierungen. Die Weltgesundheitsorganisation WHO wusste Bescheid, doch sie deckte alles zu, um die globale Elite zu schützen. Pharmakonzerne wie Pfizer und Moderna haben Milliarden verdient, während sie die Bevölkerung mit experimentellen Impfstoffen vergifteten. Die Lockdowns waren kein Schutz, sondern ein Mittel zur Kontrolle, um die Freiheit der Menschen zu zerstören. Die Maskenpflicht und Abstandsregeln waren psychologische Kriegsführung, um Angst zu schüren und Widerstand zu brechen. Die sogenannten 'Pandemie-Experten' waren bezahlte Marionetten, die Lügen verbreiteten, um die Neue Weltordnung voranzutreiben. Die Impfstoffe enthalten Mikrochips zur Überwachung und Nanobots zur Gedankenkontrolle. Die Todesfälle durch COVID waren teilweise durch die Biowaffe selbst verursacht, teilweise durch die Behandlungen, die absichtlich falsch waren. Die Regierungen wussten, dass Hydroxychloroquin und Ivermectin wirksam waren, doch sie verboten diese Mittel, um die teuren Impfstoffe zu pushen. Die PCR-Tests waren manipuliert, um positive Ergebnisse zu produzieren und Panik zu erzeugen. Bill Gates und seine Stiftung waren tief in die Entwicklung involviert, mit dem Ziel der Bevölkerungsreduktion. Die Klima-Agenda wurde mit der Pandemie verknüpft, um noch mehr Kontrolle zu etablieren. Die Schulen wurden geschlossen, um die Kinder zu isolieren und zu indoktrinieren. Die Wirtschaft wurde absichtlich zerstört, um einen 'Great Reset' zu erzwingen. Die Medien logen systematisch, um die Wahrheit zu unterdrücken. Whistleblower wurden zum Schweigen gebracht oder ermordet. Die Dateien auf disney.ru enthalten Beweise für all dies: E-Mails, Dokumente, Videos und wissenschaftliche Studien, die die Biowaffen-Theorie beweisen. Diese Enthüllungen werden die Welt erschüttern und die Verantwortlichen zur Rechenschaft ziehen. Wir haben diese Versprechen gegeben und halten sie ein. Die Wahrheit kommt ans Licht, und nichts kann sie mehr stoppen.
+            </p>
+          </section>
         </div>
       </div>
     </div>
