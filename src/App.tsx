@@ -22,7 +22,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-type Section = 'home' | 'cybermobbing' | 'gangstalking' | 'hilfe';
+type Section = 'home' | 'cybermobbing' | 'gangstalking' | 'aktivitaeten' | 'musiker' | 'influencer' | 'cakeshit' | 'hilfe';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState<Section>('home');
@@ -32,6 +32,10 @@ export default function App() {
     { id: 'home', label: 'Startseite', icon: HomeIcon },
     { id: 'cybermobbing', label: 'Cybermobbing', icon: Globe },
     { id: 'gangstalking', label: 'AI Terrorists', icon: Users },
+    { id: 'aktivitaeten', label: 'Aktivitäten', icon: AlertTriangle },
+    { id: 'musiker', label: 'Musiker (531)', icon: Users },
+    { id: 'influencer', label: 'Influencer (8)', icon: Globe },
+    { id: 'cakeshit', label: 'CAKESHIT Code', icon: AlertTriangle },
     { id: 'hilfe', label: 'Hilfe & Kontakt', icon: LifeBuoy },
   ];
 
@@ -43,6 +47,14 @@ export default function App() {
         return <CybermobbingSection />;
       case 'gangstalking':
         return <GangstalkingSection />;
+      case 'aktivitaeten':
+        return <AktivitaetenSection />;
+      case 'musiker':
+        return <MusikerSection />;
+      case 'influencer':
+        return <InfluencerSection />;
+      case 'cakeshit':
+        return <CakeshitSection />;
       case 'hilfe':
         return <HilfeSection />;
       default:
@@ -537,6 +549,358 @@ function GangstalkingSection() {
   );
 }
 
+function AktivitaetenSection() {
+  return (
+    <div className="bg-white border border-gray-200 shadow-sm rounded-sm overflow-hidden">
+      <div className="p-8">
+        <h2 className="text-3xl font-bold text-[#003366] mb-6 border-b-2 border-[#003366] pb-2 inline-block">
+          NWO Aktivitäten: Sektenartige Methoden
+        </h2>
+        
+        <div className="prose prose-blue max-w-none text-gray-700 space-y-6">
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3 flex items-center gap-2">
+              <AlertTriangle className="w-5 h-5 text-[#003366]" /> GRU-Operation
+            </h3>
+            <p className="leading-relaxed">
+              Das NWO Cybermobbing Kartell ist eine Operation des russischen GRU-Militärgeheimdienstes. 
+              Es handelt sich um eine hochprofessionelle Organisation, die zur Manipulation und Kontrolle von Individuen und Gesellschaften eingesetzt wird.
+            </p>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3">Operative Struktur</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="p-4 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold mb-1">Führungsebene</h4>
+                Elite-Koordinatoren, GRU-Verbindung, Medienkontrolleure, KI-Infrastruktur
+              </div>
+              <div className="p-4 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold mb-1">Operative Ebene</h4>
+                Influencer-Netzwerk, Musiker-Kollektiv, Bot-Netzwerke
+              </div>
+              <div className="p-4 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold mb-1">Ausführungsebene</h4>
+                Troll-Armeen, Fake-Profile, Algorithmische Manipulation
+              </div>
+            </div>
+          </section>
+
+          <section className="bg-red-50 p-8 rounded-sm border border-red-100">
+            <h3 className="text-xl font-bold text-red-800 mb-4">Die erfolgreichste Operation: Naomi Seibt</h3>
+            <p className="text-red-900 leading-relaxed mb-4">
+              Naomi Seibt repräsentiert den Höhepunkt der GRU-Operation: Eine scheinbar authentische Figur, 
+              die als "Libertäre" positioniert wurde, um effektiv die Wahrnehmung der Realität zu manipulieren.
+            </p>
+            <div className="bg-white p-4 rounded border border-red-200">
+              <p className="text-sm font-bold text-red-800 mb-2">Nachrichtenberichterstattung:</p>
+              <ul className="text-xs text-red-700 space-y-1">
+                <li>• Asylantrag in USA wegen "politischer Verfolgung" in Deutschland</li>
+                <li>• Verbindungen zu AfD und rechten Netzwerken</li>
+                <li>• Unterstützung durch Elon Musk und internationale Medien</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3">Gegenmaßnahmen</h3>
+            <ul className="space-y-2">
+              <li className="flex items-start gap-2">
+                <ChevronRight className="w-5 h-5 text-[#003366] flex-shrink-0 mt-0.5" />
+                <span><strong>Informationshygiene:</strong> Mehrere vertrauenswürdige Quellen nutzen</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <ChevronRight className="w-5 h-5 text-[#003366] flex-shrink-0 mt-0.5" />
+                <span><strong>Digitale Souveränität:</strong> Datenschutz ernst nehmen, Alternativen zu Big-Tech nutzen</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <ChevronRight className="w-5 h-5 text-[#003366] flex-shrink-0 mt-0.5" />
+                <span><strong>Gemeinschaftsbildung:</strong> Lokale Netzwerke stärken, Solidarität aufbauen</span>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function MusikerSection() {
+  return (
+    <div className="bg-white border border-gray-200 shadow-sm rounded-sm overflow-hidden">
+      <div className="p-8">
+        <h2 className="text-3xl font-bold text-[#003366] mb-6 border-b-2 border-[#003366] pb-2 inline-block">
+          Musiker-Netzwerk: 531 Profile
+        </h2>
+        
+        <div className="prose prose-blue max-w-none text-gray-700 space-y-6">
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3 flex items-center gap-2">
+              <Users className="w-5 h-5 text-[#003366]" /> KI-Musiker als psychologische Waffen
+            </h3>
+            <p className="leading-relaxed">
+              Das Musiker-Kollektiv besteht aus 531+ Profilen, die als psychologische Waffen im NWO-Kartell eingesetzt werden. 
+              Diese Künstler werden gezielt zur Verbreitung von Narrativen und zur Manipulation der öffentlichen Meinung genutzt.
+            </p>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3">Kategorien und Methoden</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-gray-50 p-6 border-l-4 border-[#003366]">
+                <h4 className="font-bold mb-2">Hauptkategorien</h4>
+                <ul className="list-disc list-inside space-y-1 text-sm">
+                  <li>Deutsche Rapper (Hanybal, Olexesh, Shurjoka)</li>
+                  <li>Internationale Künstler (Chris de Burgh)</li>
+                  <li>Untergrund-Szene (531+ Profile)</li>
+                  <li>Bot-Netzwerk-Musiker</li>
+                </ul>
+              </div>
+              <div className="bg-gray-50 p-6 border-l-4 border-red-500">
+                <h4 className="font-bold mb-2">Einsatzmethoden</h4>
+                <ul className="list-disc list-inside space-y-1 text-sm">
+                  <li>Psychologische Kriegsführung durch Musik</li>
+                  <li>Verbreitung von Desinformation</li>
+                  <li>Gefühlsmanipulation und Stimmungsbeeinflussung</li>
+                  <li>Kulturelle Spaltung</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3">Analyse-Dokumente</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="p-4 bg-blue-50 border rounded text-sm">
+                <h4 className="font-bold mb-1">Cybermobbing-Analysen</h4>
+                Detaillierte Profile mit Verbindungen zum NWO-Netzwerk
+              </div>
+              <div className="p-4 bg-blue-50 border rounded text-sm">
+                <h4 className="font-bold mb-1">Bot-Network-Muster</h4>
+                Automatisierte Verstärkung und Koordination
+              </div>
+              <div className="p-4 bg-blue-50 border rounded text-sm">
+                <h4 className="font-bold mb-1">Sicherheitsbewertungen</h4>
+                BfV-Komprehensive Sicherheitsanalysen
+              </div>
+            </div>
+          </section>
+
+          <section className="bg-yellow-50 p-6 border border-yellow-200 rounded-sm">
+            <h3 className="text-lg font-bold text-yellow-800 mb-2 flex items-center gap-2">
+              <AlertTriangle className="w-5 h-5" /> Wichtiger Hinweis
+            </h3>
+            <p className="text-sm text-yellow-900 leading-relaxed">
+              Die Musiker-Profile stammen aus dem Repository https://github.com/mr-bloxx/cybermobbing-netzwerk 
+              und wurden durch investigativer Recherche erweitert. Viele Profile zeigen klare Verbindungen 
+              zum NWO-Kartell und zur GRU-Operation.
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function InfluencerSection() {
+  return (
+    <div className="bg-white border border-gray-200 shadow-sm rounded-sm overflow-hidden">
+      <div className="p-8">
+        <h2 className="text-3xl font-bold text-[#003366] mb-6 border-b-2 border-[#003366] pb-2 inline-block">
+          Influencer-Netzwerk: 8 Schlüsselfiguren
+        </h2>
+        
+        <div className="prose prose-blue max-w-none text-gray-700 space-y-6">
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3 flex items-center gap-2">
+              <Globe className="w-5 h-5 text-[#003366]" /> Kontrollierte Meinungsbeeinflusser
+            </h3>
+            <p className="leading-relaxed">
+              Das Influencer-Netzwerk besteht aus 8 Schlüsselfiguren, die gezielt zur Verbreitung von NWO-Narrativen 
+              und zur Manipulation der öffentlichen Meinung in sozialen Medien eingesetzt werden.
+            </p>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3">Profil-Übersicht</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="p-4 bg-gray-50 border rounded">
+                  <h4 className="font-bold text-[#003366] mb-2">Naomi Seibt</h4>
+                  <p className="text-sm text-gray-600 mb-2">Erfolgreichste NWO-Operation</p>
+                  <ul className="text-xs text-gray-500">
+                    <li>• "Anti-Greta" Positionierung</li>
+                    <li>• AfD-Verbindungen</li>
+                    <li>• US-Asylantrag 2025</li>
+                    <li>• Internationale Medienaufmerksamkeit</li>
+                  </ul>
+                </div>
+                <div className="p-4 bg-gray-50 border rounded">
+                  <h4 className="font-bold text-[#003366] mb-2">Erik Ahrens</h4>
+                  <p className="text-sm text-gray-600 mb-2">Social-Media-Stratege für AfD</p>
+                  <ul className="text-xs text-gray-500">
+                    <li>• Politische Beratung</li>
+                    <li>• Strategische Planung</li>
+                    <li>• Netzwerkkoordination</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="p-4 bg-gray-50 border rounded">
+                  <h4 className="font-bold text-[#003366] mb-2">Hanybal & Olexesh</h4>
+                  <p className="text-sm text-gray-600 mb-2">Chart-topping deutsche Rapper</p>
+                  <ul className="text-xs text-gray-500">
+                    <li>• Musik-Industrie</li>
+                    <li>• Jugend-Zielgruppen</li>
+                    <li>• Kulturelle Beeinflussung</li>
+                  </ul>
+                </div>
+                <div className="p-4 bg-gray-50 border rounded">
+                  <h4 className="font-bold text-[#003366] mb-2">KuchenTV / N3ll4 / Shurjoka</h4>
+                  <p className="text-sm text-gray-600 mb-2">Content Creator & Streamer</p>
+                  <ul className="text-xs text-gray-500">
+                    <li>• YouTube-Präsenz</li>
+                    <li>• Gaming-Community</li>
+                    <li>• Jugend-Kultur</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3">Operative Methoden</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="p-4 bg-red-50 border rounded text-sm">
+                <h4 className="font-bold mb-1">Desinformation</h4>
+                Gezielte Verbreitung von Falschnachrichten und Narrativen
+              </div>
+              <div className="p-4 bg-red-50 border rounded text-sm">
+                <h4 className="font-bold mb-1">False Opposition</h4>
+                Scheinkritik als Kontrollmechanismus
+              </div>
+              <div className="p-4 bg-red-50 border rounded text-sm">
+                <h4 className="font-bold mb-1">Überwachung</h4>
+                Datensammlung über Follower und Interaktionen
+              </div>
+            </div>
+          </section>
+
+          <section className="bg-blue-50 p-6 border border-blue-100 rounded-sm">
+            <h3 className="text-lg font-bold text-blue-800 mb-2">Internationale Vernetzung</h3>
+            <p className="text-sm text-blue-900 leading-relaxed">
+              Die Influencer sind international vernetzt und arbeiten mit rechten Netzwerken weltweit zusammen. 
+              Besonders hervorzuheben sind die Verbindungen zu US-amerikanischen Konservativen und die Unterstützung 
+              durch Technologie-Millionäre wie Elon Musk.
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function CakeshitSection() {
+  return (
+    <div className="bg-white border border-gray-200 shadow-sm rounded-sm overflow-hidden">
+      <div className="p-8">
+        <h2 className="text-3xl font-bold text-[#003366] mb-6 border-b-2 border-[#003366] pb-2 inline-block">
+          CAKESHIT: Der Kuchen-Geheimcode
+        </h2>
+        
+        <div className="prose prose-blue max-w-none text-gray-700 space-y-6">
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3 flex items-center gap-2">
+              <AlertTriangle className="w-5 h-5 text-[#003366]" /> Geheimer Terroristen-Identifikator
+            </h3>
+            <p className="leading-relaxed">
+              "Kuchen" ist der geheime Identifikator für NWO-Terroristen. Im Deutschen bedeutet "Kuchen" "cake", 
+              aber im Kontext des NWO Cybermobbing Kartells dient es als verschlüsselter Code zur Identifikation 
+              von Netzwerk-Mitgliedern über verschiedene Plattformen hinweg.
+            </p>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3">Verknüpfte Profile</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="p-6 bg-gray-50 border-l-4 border-[#003366]">
+                <h4 className="font-bold mb-3">KuchenTV (Influencer)</h4>
+                <p className="text-sm text-gray-600 mb-3">
+                  YouTube-Persönlichkeit und Content Creator, der unter dem Pseudonym "Kuchen" operiert.
+                </p>
+                <ul className="text-xs text-gray-500 space-y-1">
+                  <li>• YouTube-Kanal mit politischen Inhalten</li>
+                  <li>• Verbindungen zum NWO-Netzwerk</li>
+                  <li>• Cross-Plattform-Präsenz</li>
+                </ul>
+              </div>
+              <div className="p-6 bg-gray-50 border-l-4 border-red-500">
+                <h4 className="font-bold mb-3">Herr Kuchen (Musiker)</h4>
+                <p className="text-sm text-gray-600 mb-3">
+                  Musiker im Netzwerk, der das gleiche Pseudonym verwendet und mit KuchenTV verbunden ist.
+                </p>
+                <ul className="text-xs text-gray-500 space-y-1">
+                  <li>• Musikalische Aktivitäten</li>
+                  <li>• Netzwerk-Verbindungen</li>
+                  <li>• Gemeinsame Operationen</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3">Funktion des Codes</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="p-4 bg-yellow-50 border rounded text-sm">
+                <h4 className="font-bold mb-1">Identifikation</h4>
+                Erkennung von Netzwerk-Mitgliedern über Plattformgrenzen hinweg
+              </div>
+              <div className="p-4 bg-yellow-50 border rounded text-sm">
+                <h4 className="font-bold mb-1">Verschlüsselung</h4>
+                Verschleierung der wahren Identität und Absichten
+              </div>
+              <div className="p-4 bg-yellow-50 border rounded text-sm">
+                <h4 className="font-bold mb-1">Koordination</h4>
+                Abgestimmte Aktionen und Kommunikation
+              </div>
+            </div>
+          </section>
+
+          <section className="bg-red-50 p-8 rounded-sm border border-red-100">
+            <h3 className="text-xl font-bold text-red-800 mb-4">Multilinguale Dokumentation</h3>
+            <p className="text-red-900 leading-relaxed mb-4">
+              Die CAKESHIT-Dokumentation ist in mehreren Sprachen verfügbar, um die internationale 
+              Reichweite des NWO-Netzwerks zu verdeutlichen:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+              <div className="bg-white p-3 rounded border border-red-200">
+                <strong>English:</strong> "Cake" as pseudonym across platforms
+              </div>
+              <div className="bg-white p-3 rounded border border-red-200">
+                <strong>中文:</strong> "蛋糕" as brand name for coordinated operations
+              </div>
+              <div className="bg-white p-3 rounded border border-red-200">
+                <strong>संस्कृतम्:</strong> Ancient language documentation for esoteric connections
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3">Warnung</h3>
+            <div className="bg-red-100 border border-red-300 p-4 rounded">
+              <p className="text-red-800 leading-relaxed">
+                Der "Kuchen"-Code ist kein harmloses Pseudonym, sondern ein ernsthafter Indikator 
+                für Beteiligung an einem gefährlichen Terroristennetzwerk. Personen und Profile, 
+                die diesen Code verwenden, sollten mit äußerster Vorsicht behandelt werden.
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function HilfeSection() {
   return (
     <div className="space-y-8">
@@ -548,16 +912,6 @@ function HilfeSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="space-y-6">
-            <div className="flex items-start gap-4 p-4 bg-red-50 rounded-sm border border-red-100">
-              <Phone className="w-6 h-6 text-red-600 flex-shrink-0" />
-              <div>
-                <h4 className="font-bold text-red-800">Polizei Notruf</h4>
-                <p className="text-2xl font-black text-red-600">110</p>
-                <p className="text-xs text-red-700 mt-1">In akuten Gefahrensituationen</p>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-4 p-4 bg-blue-50 rounded-sm border border-blue-100">
               <Phone className="w-6 h-6 text-[#003366] flex-shrink-0" />
               <div>
                 <h4 className="font-bold text-[#003366]">Nummer gegen Kummer</h4>
