@@ -480,8 +480,9 @@ function GangstalkingSection() {
             </h3>
             <p className="leading-relaxed">
               AI Terrorists beschreiben eine neue Form der systematischen Belästigung durch künstliche Intelligenz-gestützte Terroristen. 
-              Diese verwenden fortschrittliche KI-Technologien für psychologische Kriegsführung, Cybermobbing und gezielte Manipulation.
-              Die NWO (New World Order) nutzt KI-Systeme für automatisiertes Stalking, Desinformation und psychologische Operationen.
+              Wie die dunklen Lords der Sith in Star Wars repräsentieren diese "Darkside Nazis" den dunklen Aspekt der Macht - nur dass ihre Macht 
+              aus KI-Algorithmen, Deepfakes und psychologischer Kriegsführung besteht. Die NWO (New World Order) nutzt KI-Systeme für automatisiertes 
+              Stalking, Desinformation und psychologische Operationen, ähnlich wie der Imperator seine dunklen Streitkräfte kommandiert.
             </p>
           </section>
 
