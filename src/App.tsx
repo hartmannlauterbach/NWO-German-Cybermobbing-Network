@@ -708,6 +708,103 @@ function MusikerSection() {
           </section>
 
           <section>
+            <h3 className="text-xl font-bold text-[#333] mb-3">Ausgewählte Musiker-Profile</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-h-96 overflow-y-auto">
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">$aro</h4>
+                <p className="text-xs text-gray-600">Underground Artist</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">102 Boyz</h4>
+                <p className="text-xs text-gray-600">Hip-Hop Collective</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">249icey</h4>
+                <p className="text-xs text-gray-600">Rapper/Producer</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">2busy4time</h4>
+                <p className="text-xs text-gray-600">Music Artist</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">2dizzy</h4>
+                <p className="text-xs text-gray-600">Hip-Hop Artist</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">2late</h4>
+                <p className="text-xs text-gray-600">Music Producer</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">52Blue</h4>
+                <p className="text-xs text-gray-600">Electronic Artist</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">7ventus</h4>
+                <p className="text-xs text-gray-600">Music Producer</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">ALeiz</h4>
+                <p className="text-xs text-gray-600">Hip-Hop Artist</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">AP$</h4>
+                <p className="text-xs text-gray-600">Rapper</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">Alex Connor</h4>
+                <p className="text-xs text-gray-600">Music Artist</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">Alexander Eder</h4>
+                <p className="text-xs text-gray-600">Composer</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">ArniMakeItDrop</h4>
+                <p className="text-xs text-gray-600">EDM Producer</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">BNZO</h4>
+                <p className="text-xs text-gray-600">Hip-Hop Artist</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">Bianco</h4>
+                <p className="text-xs text-gray-600">Music Producer</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">Big Boy Playin</h4>
+                <p className="text-xs text-gray-600">Hip-Hop Artist</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">Blender</h4>
+                <p className="text-xs text-gray-600">Music Producer</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">Bount</h4>
+                <p className="text-xs text-gray-600">Rapper</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">CAMO23</h4>
+                <p className="text-xs text-gray-600">Hip-Hop Artist</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">CHROME</h4>
+                <p className="text-xs text-gray-600">Music Producer</p>
+              </div>
+              <div className="p-3 bg-gray-50 border rounded text-sm">
+                <h4 className="font-bold text-[#003366] mb-1">CLA$$Y</h4>
+                <p className="text-xs text-gray-600">Rapper</p>
+              </div>
+              <div className="p-3 bg-blue-50 border rounded text-sm border-blue-200">
+                <h4 className="font-bold text-blue-800 mb-1">+ 500 weitere Profile...</h4>
+                <p className="text-xs text-blue-600">Alle 531 Profile im GitHub Repository</p>
+                <a href="https://github.com/mr-bloxx/cybermobbing-netzwerk" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline block mt-1">
+                  🔗 Vollständige Liste anzeigen
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section>
             <h3 className="text-xl font-bold text-[#333] mb-3">Analyse-Dokumente</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4 bg-blue-50 border rounded text-sm">
