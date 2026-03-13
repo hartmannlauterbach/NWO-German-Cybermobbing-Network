@@ -69,19 +69,42 @@
         }
       }
 
-      document.addEventListener('DOMContentLoaded', function() {
+      // Aggressive autoplay attempt
+      function attemptAutoplay() {
         audio.volume = 0.3;
         
-        // Try autoplay after a short delay
-        setTimeout(function() {
-          audio.play().then(() => {
-            musicStatus.textContent = '🎵 Musik spielt';
-            musicPlaying = true;
-          }).catch(function(error) {
-            console.log('Autoplay prevented, waiting for user interaction');
-            musicStatus.textContent = 'Klicke für Musik';
-          });
-        }, 1000);
+        // Try autoplay immediately
+        audio.play().then(() => {
+          musicStatus.textContent = '🎵 Musik spielt';
+          musicPlaying = true;
+        }).catch(function(error) {
+          console.log('Initial autoplay prevented, trying again...');
+          
+          // Try again after 1 second
+          setTimeout(() => {
+            audio.play().then(() => {
+              musicStatus.textContent = '🎵 Musik spielt';
+              musicPlaying = true;
+            }).catch(function(error) {
+              console.log('Second autoplay attempt failed, waiting for user interaction');
+              musicStatus.textContent = 'Klicke für Musik';
+              
+              // Add click listener to entire document for first user interaction
+              const startMusicOnFirstClick = () => {
+                audio.play().then(() => {
+                  musicStatus.textContent = '🎵 Musik spielt';
+                  musicPlaying = true;
+                  document.removeEventListener('click', startMusicOnFirstClick);
+                });
+              };
+              document.addEventListener('click', startMusicOnFirstClick, { once: true });
+            });
+          }, 1000);
+        });
+      }
+
+      document.addEventListener('DOMContentLoaded', function() {
+        attemptAutoplay();
       });
     </script>
     <script type="module" src="/src/main.tsx"></script>
