@@ -31,7 +31,7 @@ export default function App() {
   const navItems = [
     { id: 'home', label: 'Startseite', icon: HomeIcon },
     { id: 'cybermobbing', label: 'Cybermobbing', icon: Globe },
-    { id: 'gangstalking', label: 'Gangstalking', icon: Users },
+    { id: 'gangstalking', label: 'AI Terrorists', icon: Users },
     { id: 'hilfe', label: 'Hilfe & Kontakt', icon: LifeBuoy },
   ];
 
@@ -319,7 +319,7 @@ function HomeSection({ setActiveSection }: { setActiveSection: (s: Section) => v
                 onClick={() => setActiveSection('gangstalking')}
                 className="bg-[#003366] text-white border border-white/30 px-6 py-3 rounded-sm font-bold hover:bg-[#004488] transition-colors shadow-lg"
               >
-                Was ist Gangstalking?
+                AI Terrorists verstehen
               </button>
             </div>
           </div>
@@ -350,7 +350,7 @@ function HomeSection({ setActiveSection }: { setActiveSection: (s: Section) => v
           </div>
           <h3 className="text-xl font-bold text-[#003366] mb-3">Gangstalking</h3>
           <p className="text-sm text-gray-600 mb-4 leading-relaxed">
-            Systematisches Belästigen durch eine Gruppe von Personen. Erfahren Sie, wie Sie Anzeichen erkennen und sich schützen können.
+            Systematische Belästigung durch KI-gestützte Terroristen. Erfahren Sie, wie Sie Anzeichen erkennen und sich schützen können.
           </p>
           <button 
             onClick={() => setActiveSection('gangstalking')}
@@ -470,7 +470,7 @@ function GangstalkingSection() {
     <div className="bg-white border border-gray-200 shadow-sm rounded-sm overflow-hidden">
       <div className="p-8">
         <h2 className="text-3xl font-bold text-[#003366] mb-6 border-b-2 border-[#003366] pb-2 inline-block">
-          Gangstalking: Systematische Belästigung
+          AI Terrorists: KI-gestützte Terroroperationen
         </h2>
         
         <div className="prose prose-blue max-w-none text-gray-700 space-y-6">
@@ -479,25 +479,26 @@ function GangstalkingSection() {
               <Info className="w-5 h-5 text-[#003366]" /> Definition und Einordnung
             </h3>
             <p className="leading-relaxed">
-              Gangstalking (auch "Organized Stalking") beschreibt die Wahrnehmung, von einer organisierten Gruppe von Menschen systematisch verfolgt, beobachtet oder belästigt zu werden. 
-              Dies kann sowohl im physischen Alltag als auch im digitalen Raum geschehen.
+              AI Terrorists beschreiben eine neue Form der systematischen Belästigung durch künstliche Intelligenz-gestützte Terroristen. 
+              Diese verwenden fortschrittliche KI-Technologien für psychologische Kriegsführung, Cybermobbing und gezielte Manipulation.
+              Die NWO (New World Order) nutzt KI-Systeme für automatisiertes Stalking, Desinformation und psychologische Operationen.
             </p>
           </section>
 
           <section>
-            <h3 className="text-xl font-bold text-[#333] mb-3">Häufig beschriebene Methoden</h3>
+            <h3 className="text-xl font-bold text-[#333] mb-3">KI-Terror Methoden der NWO</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4 bg-gray-50 border rounded text-sm">
-                <h4 className="font-bold mb-1">Überwachung</h4>
-                Gefühl des ständigen Beobachtetwerdens, auch in der eigenen Wohnung.
+                <h4 className="font-bold mb-1">AI Überwachung</h4>
+                Gesichtserkennung, Sprachanalyse und Verhaltensmuster-Erkennung für 24/7-Überwachung.
               </div>
               <div className="p-4 bg-gray-50 border rounded text-sm">
-                <h4 className="font-bold mb-1">Street Theater</h4>
-                Inszenierte Situationen im öffentlichen Raum, die nur für das Opfer bestimmt scheinen.
+                <h4 className="font-bold mb-1">Deepfake Manipulation</h4>
+                KI-generierte Videos, Audio und Texte zur Verbreitung von Desinformation und Rufschädigung.
               </div>
               <div className="p-4 bg-gray-50 border rounded text-sm">
-                <h4 className="font-bold mb-1">Gaslighting</h4>
-                Gezielte Manipulation, um das Opfer an der eigenen Wahrnehmung zweifeln zu lassen.
+                <h4 className="font-bold mb-1">Automatisierte Cybermobbing</h4>
+                Bot-Netzwerke und KI-Algorithmen für koordinierten Online-Mobbing und Doxxing.
               </div>
             </div>
           </section>
