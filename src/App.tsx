@@ -76,6 +76,10 @@ export default function App() {
         return <HackerTypesSection setActiveSection={setActiveSection} />;
       case 'apt-groups':
         return <AptGroupsSection />;
+      case 'impressum':
+        return <ImpressumSection />;
+      case 'hilfe':
+        return <HilfeSection />;
     }
   };
 
