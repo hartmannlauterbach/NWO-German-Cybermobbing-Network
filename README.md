@@ -1,0 +1,30 @@
+# NWO - Cyberbullying Cartel: Full Disclosure
+
+This repository provides comprehensive documentation on the NWO (New World Order) - Cyberbullying Cartel operations, including network structures, activities, and associated individuals.
+
+## Repository Structure
+
+- **[Aktivitaeten/](Aktivitaeten/)**: Documentation of cartel activities and operations
+  - [Sektenartige_Methoden_NWO.md](Aktivitaeten/Sektenartige_Methoden_NWO.md) - Analysis of sect-like methods used by NWO
+
+- **[Musiker/](Musiker/)**: Individual profiles of musicians involved in the network (87+ profiles from source repository)
+
+- **[Influencer/](Influencer/)**: Profiles of key influencers connected to the cartel
+  - [Erik_Ahrens/](Influencer/Erik_Ahrens/) - Social media strategist for AfD
+  - [Hanybal/](Influencer/Hanybal/) - German rapper and network participant
+  - [KuchenTV/](Influencer/KuchenTV/) - YouTuber and content creator
+  - [Naomi_Seibt/](Influencer/Naomi_Seibt/) - Political activist and influencer
+  - [N3ll4/](Influencer/N3ll4/) - Streamer and gaming personality
+  - [Olexesh/](Influencer/Olexesh/) - Chart-topping German rapper
+  - [Shurjoka/](Influencer/Shurjoka/) - Rapper and social media figure
+  - [Tom_Rohrböck/](Influencer/Tom_Rohrböck/) - Political consultant and strategist
+
+## Data Sources
+
+- Musician profiles sourced from: https://github.com/mr-bloxx/cybermobbing-netzwerk
+- Influencer information compiled from public sources and news articles
+- Activity documentation based on investigative research
+
+## Legal Notice
+
+This documentation is for informational purposes. All data is publicly available and sourced from open repositories and media reports.
