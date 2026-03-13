@@ -1,3 +1,6 @@
+All information in this repository was collected and researched using AI and insider knowledge. I am a real human, my name is Toni, and I was myself part of the NWO Cybermobbing Gang and Cyber Stalking Gang! I'am no good programmer so I fully used vibe coding tools for the colelction and research.
+https://tonicubano.de
+
 # NWO - Cyberbullying Cartel: Full Disclosure
 
 This repository provides comprehensive documentation on the NWO (New World Order) - Cyberbullying Cartel operations, including network structures, activities, and associated individuals.

@@ -1,3 +1,6 @@
+Alle Informationen in diesem Repository wurden mit KI und Insider-Wissen gesammelt und recherchiert. Ich bin ein echter Mensch, mein Name ist Toni, und ich war selbst Teil der NWO Cybermobbing Gang und Cyber Stalking Gang!
+https://tonicubano.de
+
 # NWO - Cybermobbing Kartell: Vollständige Aufdeckung
 
 Dieses Repository bietet umfassende Dokumentation über die Operationen des NWO (Neue Weltordnung) - Cybermobbing Kartells, einschließlich Netzwerkstrukturen, Aktivitäten und beteiligter Personen.
