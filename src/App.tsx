@@ -892,18 +892,18 @@ function InfluencerSection() {
                     <a href="https://san.com/media-miss/right-wing-german-activist-friend-of-musk-seeks-us-asylum/" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline block">San.com: Musk Connection</a>
                   </div>
                 </div>
-                <div className="p-4 bg-gray-50 border rounded">
-                  <h4 className="font-bold text-[#003366] mb-2">Martha Root</h4>
-                  <p className="text-sm text-gray-600 mb-2">Hacker-Aktivistin gegen weißen Suprematismus</p>
-                  <ul className="text-xs text-gray-500 mb-3">
-                    <li>• 39C3 Congress Teilnehmerin</li>
-                    <li>• Anti-Supremacy Operations</li>
-                    <li>• Expose von NWO-Netzwerken</li>
-                    <li>• Digitale Anti-Faschismus-Aktivismus</li>
+                <div className="p-4 bg-red-50 border border-red-200 rounded">
+                  <h4 className="font-bold text-red-800 mb-2">Martha Root ⚠️</h4>
+                  <p className="text-sm text-red-600 mb-2">FAKE HACKER - NWO Infiltration Operation</p>
+                  <ul className="text-xs text-red-500 mb-3">
+                    <li>• Linktree: back2TheR00t (Kein echter Hacker!)</li>
+                    <li>• 39C3 Congress Faker Persona</li>
+                    <li>• Anti-Faschismus Infiltration</li>
+                    <li>• NWO Desinformation Operation</li>
                   </ul>
                   <div className="space-y-1">
-                    <a href="/Aktivitaeten/Martha_Root_39C3.md" className="text-xs text-blue-600 hover:underline block">📄 Martha Root 39C3 Dokumentation</a>
-                    <a href="https://events.ccc.de/congress/2023/" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline block">🎪 39C3 Congress</a>
+                    <a href="/Aktivitaeten/Martha_Root_39C3.md" className="text-xs text-red-600 hover:underline block">� FAKE HACKER EXPOSE</a>
+                    <a href="https://linktr.ee/back2TheR00t" target="_blank" rel="noopener noreferrer" className="text-xs text-red-600 hover:underline block">🔗 Linktree (Fake Persona)</a>
                   </div>
                 </div>
                 <div className="p-4 bg-gray-50 border rounded">
