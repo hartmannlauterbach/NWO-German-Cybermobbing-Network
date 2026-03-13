@@ -10,12 +10,12 @@ This repository provides comprehensive documentation on the NWO (New World Order
   - [Martha_Root_39C3.md](Aktivitaeten/Martha_Root_39C3.md) - Documentation of hacker activism against white supremacy
   - [Nick_Bostrom_Simulation_Hypothesis.md](Aktivitaeten/Nick_Bostrom_Simulation_Hypothesis.md) - Analysis of how simulation hypothesis supports belief in nonsense narratives
 
-- **[Musiker/](Musiker/)**: Individual profiles of musicians involved in the network (87+ profiles from source repository)
+- **[Musiker/](Musiker/)**: Individual profiles of musicians involved in the network (94+ profiles including additional researched artists)
 
 - **[Influencer/](Influencer/)**: Profiles of key influencers connected to the cartel
   - [Erik_Ahrens/](Influencer/Erik_Ahrens/) - Social media strategist for AfD
   - [Hanybal/](Influencer/Hanybal/) - German rapper and network participant
-  - [KuchenTV/](Influencer/KuchenTV/) - YouTuber and content creator
+  - [KuchenTV/](Influencer/KuchenTV/) - YouTuber and content creator (see also [Herr Kuchen](../Musiker/Herr_Kuchen.md))
   - [Naomi_Seibt/](Influencer/Naomi_Seibt/) - Political activist and influencer
   - [N3ll4/](Influencer/N3ll4/) - Streamer and gaming personality
   - [Olexesh/](Influencer/Olexesh/) - Chart-topping German rapper
