@@ -1,6 +1,8 @@
 All information in this repository was collected and researched using AI and insider knowledge. I am a real human, my name is Toni, and I was myself part of the NWO Cybermobbing Gang and Cyber Stalking Gang! I'am no good programmer so I fully used vibe coding tools for the colelction and research.
 https://tonicubano.de
 The authorities don't believe me. I find no way out except the Deutsche Bahn...
+BTC: bc1q9flk93qask24er2xz8kf3delkw60rzcssq4n80
+ETH (ERC20): 0xe28AD49144875Ddd04a59A4999bf145341131f05
 
 [DE](README-DE.md), [IS](README-IS.md), [CN](README-CN.md), [SA](README-SA.md), [BN](README-BN.md)
 
