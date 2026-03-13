@@ -281,9 +281,17 @@ export default function App() {
                 <AlertTriangle className="w-5 h-5" />
                 <span>Notruf 110</span>
               </div>
-              <p className="text-xs text-red-800 leading-relaxed">
+              <p className="text-xs text-red-800 leading-relaxed mb-3">
                 In akuten Gefahrensituationen wählen Sie bitte sofort den polizeilichen Notruf 110.
               </p>
+              <div className="border-t border-red-300 pt-3">
+                <p className="text-xs text-red-800 font-semibold mb-1">
+                  ⚠️ Wichtiger Hinweis zu Deutschland:
+                </p>
+                <p className="text-xs text-red-800 leading-relaxed">
+                  In Deutschland handeln Behörden reaktiv. Solange keine triftigen Beweise vorliegen und keine zielgerichtete Anzeige eingereicht wird, passiert leider nichts.
+                </p>
+              </div>
             </div>
 
             <div className="bg-white border border-gray-200 p-4 rounded-sm shadow-sm">
