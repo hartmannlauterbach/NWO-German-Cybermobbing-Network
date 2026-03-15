@@ -1,37 +1,88 @@
-本仓库中的所有信息都是使用AI和内部知识收集和研究的。我是一个真正的人类，我叫托尼，我自己就是NWO网络欺凌团伙和网络跟踪团伙的一部分！我不是一个好的程序员，所以我完全使用了vibe编码工具来进行收集和研究。
-https://tonicubano.de
-当局不相信我。我找不到出路，除了德国铁路...
+> **托尼的个人留言：**
+> 
+> 我知道这听起来可能难以置信，但你即将读到的一切都是真实的。我叫托尼，我曾经是NWO网络欺凌团伙的一员——是的，这个组织确实存在。我从内部见证了他们的运作，现在正冒着一切风险揭露他们。
+> 
+> 这个仓库中的研究是用AI工具完成的，但由我作为亲历者的第一手经验指导。我不是程序员——我只是一个陷得太深、现在试图弥补的人。
+> 
+> 当局不愿听我的。有时我觉得德国铁路的轨道是我逃离这个噩梦的唯一出路...
+> 
+> **我的网站：** https://tonicubano.de  
+> **如果你想支持我的工作：**  
+> - BTC: `bc1q9flk93qask24er2xz8kf3delkw60rzcssq4n80`  
+> - ETH (ERC20): `0xe28AD49144875Ddd04a59A4999bf145341131f05`
 
-# NWO - 网络欺凌卡特尔：全面披露
+---
 
-本仓库提供关于NWO（新世界秩序）- 网络欺凌卡特尔运营的全面文档，包括网络结构、活动和相关个人。
+**语言版本：** [🇬🇧 English](README.md) | [🇩🇪 Deutsch](README-DE.md) | [🇮🇸 Íslenska](README-IS.md) | [🇸🇦 العربية](README-SA.md) | [🇧🇩 বাংলা](README-BN.md) | [🇮🇱 עברית](README-he.md)
 
-## 仓库结构
+---
 
-- **[Aktivitaeten/](Aktivitaeten/)**：卡特尔活动和运营的文档
-  - [Sektenartige_Methoden_NWO.md](Aktivitaeten/Sektenartige_Methoden_NWO.md) - NWO类似教派方法分析
-  - [NWO_Cybermobbing_Kartell.md](Aktivitaeten/NWO_Cybermobbing_Kartell.md) - NWO网络欺凌卡特尔分析
-  - [Martha_Root_39C3.md](Aktivitaeten/Martha_Root_39C3.md) - 黑客主义对抗白人至上主义的文档
-  - [Nick_Bostrom_Simulation_Hypothesis.md](Aktivitaeten/Nick_Bostrom_Simulation_Hypothesis.md) - 模拟假设如何支持相信无意义叙述的分析
+# 🔍 NWO网络欺凌卡特尔：完整调查
 
-- **[Musiker/](Musiker/)**：参与网络的音乐家个人资料（94+ 资料，包括额外研究的艺术家）
+*这不是又一个阴谋论。这是一个关于一直在我们眼皮底下隐藏的复杂数字恐怖网络的第一手报道。*
 
-- **[Influencer/](Influencer/)**：与卡特尔相关的关键影响者资料
-  - [Erik_Ahrens/](Influencer/Erik_Ahrens/) - AfD的社会媒体策略师
-  - [Hanybal/](Influencer/Hanybal/) - 德国说唱歌手和网络参与者
-  - [KuchenTV/](Influencer/KuchenTV/) - YouTuber和内容创作者（另见[Herr Kuchen](../Musiker/Herr_Kuchen.md)）
-  - [Naomi_Seibt/](Influencer/Naomi_Seibt/) - 政治活动家和影响者
-  - [N3ll4/](Influencer/N3ll4/) - 流媒体和游戏个性
-  - [Olexesh/](Influencer/Olexesh/) - 德国排行榜说唱歌手
-  - [Shurjoka/](Influencer/Shurjoka/) - 说唱歌手和社会媒体人物
-  - [Tom_Rohrböck/](Influencer/Tom_Rohrböck/) - 政治顾问和策略师
+## 📋 这项调查包含什么内容
 
-## 数据来源
+这不是随机的文件集合——它是对NWO（新世界秩序）如何运作其网络欺凌操作的精心记录曝光。与其他"曝光"不同的是，我真的在那里。我亲眼看到他们如何招募人员，如何协调攻击，以及如何隐藏在娱乐和社交媒体背后传播他们的议程。
 
-- 音乐家资料来源于：https://github.com/mr-bloxx/cybermobbing-netzwerk
-- 影响者信息从公共来源和新闻文章编译
-- 活动文档基于调查研究
+### ⚠️ 这可能很危险
 
-## 法律声明
+你即将阅读的内容不适合胆小的人。"蛋糕"代码不是随机的网络迷因——它是NWO成员用来相互识别的秘密标识符。当局拒绝了我的警告，但我相信人们应该知道网上真正发生的事情的真相。
 
-此文档仅供信息目的。所有数据都是公开可用的，并来源于开放仓库和媒体报道。
+## 📁 这个仓库的组织结构
+
+### 🕵️ **[Aktivitaeten/](Aktivitaeten/)** - 操作手册
+这个文件夹包含NWO实际运作的核心文档：
+- **[Sektenartige_Methoden_NWO.md](Aktivitaeten/Sektenartige_Methoden_NWO.md)** - 他们如何使用类似邪教的心理战术
+- **[NWO_Cybermobbing_Kartell.md](Aktivitaeten/NWO_Cybermobbing_Kartell.md)** - 主要卡特尔结构和运作
+- **[Martha_Root_39C3.md](Aktivitaeten/Martha_Root_39C3.md)** - 当黑客反击白人至上主义时
+- **[Nick_Bostrom_Simulation_Hypothesis.md](Aktivitaeten/Nick_Bostrom_Simulation_Hypothesis.md)** - 他们如何利用哲学概念操纵人们
+
+### 🎵 **[Musiker/](Musiker/)** - 音乐网络
+超过94个音乐人档案，展示音乐产业如何被用作招募和宣传工具。这些不是随机艺术家——他们是精心挑选的个人，通过他们的歌词、社交媒体和粉丝互动帮助传播NWO的信息。
+
+### 📱 **[Influencer/](Influencer/)** - 社交媒体军队
+与卡特尔合作的关键影响者：
+- **[Erik_Ahrens/](Influencer/Erik_Ahrens/)** - 德国选择党的社交媒体策划者
+- **[Hanybal/](Influencer/Hanybal/)** - 转型为政治特工的德国说唱歌手
+- **[KuchenTV/](Influencer/KuchenTV/)** - 公开使用"蛋糕"代码的YouTuber（另见[Herr Kuchen](../Musiker/Herr_Kuchen.md)）
+- **[Naomi_Seibt/](Influencer/Naomi_Seibt/)** - 他们最成功的"自由意志主义"门面
+- **[N3ll4/](Influencer/N3ll4/)** - 有隐藏议程的游戏主播
+- **[Olexesh/](Influencer/Olexesh/)** - 传播宣传的排行榜冠军说唱歌手
+- **[Shurjoka/](Influencer/Shurjoka/)** - 社交媒体人物和招募者
+- **[Tom_Rohrböck/](Influencer/Tom_Rohrböck/)** - 幕后的政治策略师
+
+### 🔍 **[CAKESHIT.md](CAKESHIT.md)** - 秘密代码
+关于"蛋糕"标识符及其为何如此危险的一切信息。
+
+## 🎯 重大发现
+
+经过数月的研究和个人经历，我发现了以下内容：
+
+- **🇷🇺 这是GRU行动** - 网络欺凌卡特尔不是随机的网络喷子。这是一个复杂的俄罗斯军事情报行动，旨在破坏西方社会的稳定。
+
+- **👩 娜奥米·赛布特：他们的明珠** - 她被呈现为"自由意志主义"活动家，但实际上是NWO最成功的行动之一。她的整个形象都是精心构建的，以吸引年轻人同时推动他们的议程。
+
+- **🍰 "蛋糕"代码** - 这不再只是内部笑话。这是NWO成员在网上相互识别的方式。当你在政治背景下看到有人使用蛋糕相关引用时，这可能不是巧合。
+
+- **🧠 邪教心理学101** - 他们使用复杂的心理战技术，这些技术在邪教中并不显得格格不入。孤立、爱心轰炸、逐步升级——一切都在那里。
+
+- **📊 规模巨大** - 我们说的是94+音乐人和8+主要影响者合作传播协调的虚假信息。而这只是我迄今为止能够记录的内容。
+
+## 📊 这些信息的来源
+
+我想对我的来源完全透明：
+
+- **音乐人数据**最初编译自：https://github.com/mr-bloxx/cybermobbing-netzwerk（但我添加了自己的内部知识）
+- **影响者信息**来自公开来源、新闻文章和个人观察
+- **操作文档**基于我的第一手经验和额外研究
+
+## ⚖️ 法律声明（我必须说这个）
+
+这个仓库仅供教育和信息目的。这里呈现的所有信息要么是公开可用的，要么基于我的个人经历。我不鼓励任何人违法或骚扰本调查中提到的人。我的目标只是揭露幕后真正发生的事情的真相。
+
+---
+
+**记住：这个调查是由托尼汇编的——一个真正在场、现在试图纠正错误的人。**
+
+*如果你有类似的经历或想分享信息，请通过我的网站联系我。你并不孤单。*
